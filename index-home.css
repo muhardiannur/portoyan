@@ -250,6 +250,7 @@ nav ul li a:hover {
 }
 .footer-logo h1 {
     margin: 0;
+    margin-bottom: 12px;
     font-size: 20px;
     color: #333;
     max-width: none;

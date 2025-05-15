@@ -211,6 +211,10 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+.section5 h1 {
+    font-weight: 1000;
+    letter-spacing: -0.4px; 
+}
 .section5 .image {
     display: flex;
     flex-wrap: wrap;

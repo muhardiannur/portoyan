@@ -305,7 +305,7 @@ nav ul li a:hover {
         height: 100px;
     }
     .header h4 {
-        min-width: 55%;
+        min-width: 75%;
         font-size: 28px;
     }
     nav {
@@ -370,7 +370,7 @@ nav ul li a:hover {
     }
     .section5 {
         margin-top: 168px;
-        margin-bottom: 168px;
+        margin-bottom: 102px;
     }
     .section5 .image img {
         width: 90%;

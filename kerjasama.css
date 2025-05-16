@@ -214,6 +214,9 @@ select:focus {
         gap: 16px;
         margin-top: 12px;
     }
+    .form-container {
+        width: 90%;
+    }
     .footer-content {
         flex-direction: column;
         align-items: flex-start;

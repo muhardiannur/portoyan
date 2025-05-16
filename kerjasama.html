@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="kerjasama.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a id="kerjasama" href="kerjasama.html">Kerjasama</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="header-text">
+                <h4>Welcome to My Personal Web!</h4>
+            </div>
+        </header>
+        <div class="form-container">
+            <h2>Formulir Penawaran Kerjasama</h2>
+          
+            <form action="#" method="post" enctype="multipart/form-data">
+              
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+          
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat" required>
+          
+                <label for="nowa">No. WA</label>
+                <input type="text" id="nowa" name="nowa" required>
+          
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+          
+                <label>Jenis Kelamin</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+                    <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+                </div>
+          
+                <label>Bidang Kerjasama</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="bidang[]" value="Multimedia"> Multimedia</label>
+                    <label><input type="checkbox" name="bidang[]" value="Web Dev"> Web Dev</label>
+                    <label><input type="checkbox" name="bidang[]" value="Fintech"> Fintech</label>
+                </div>
+          
+                <label for="file">File Penawaran</label>
+                <input type="file" id="file" name="file">
+          
+                <label for="tanggal">Tanggal Pelaksanaan</label>
+                <input type="date" id="tanggal" name="tanggal">
+          
+                <label for="domisili">Domisili</label>
+                <select id="domisili" name="domisili">
+                    <option value="">--Pilih Domisili--</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                    <option value="Sleman">Sleman</option>
+                    <option value="Bantul">Bantul</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+          
+                <div class="button-group">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+          
+            </form>
+        </div>   
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h1>Muhammad Ardian Nurfauzan 24.12.3296</h1>
+                <p>&copy; 2025 Muh Ardian. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <h3>SOCIAL MEDIA</h3>
+                    <ul class="personal_info">
+                        <li><a href="https://www.linkedin.com/in/muhardian">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/ui.yann/">Instagram</a></li>
+                        <li><a href="https://dribbble.com/uixyan/">Dribbble</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
